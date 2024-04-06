@@ -1,0 +1,99 @@
+name: Bug report
+description: Create a bug report to help us improve
+# title: ""
+# labels: []
+# assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Tips
+
+        - A good bug report should have your configuration and build environment information, which are essential for us to investigate the problem. We've provided the following steps on how to attach the necessary information.
+
+        - Please take extra precaution not to attach any secret or personal information. (likes personal privacy, password, GitHub Personal Access Token, etc.)
+
+        ------
+
+  - type: checkboxes
+    attributes:
+      label: Check List
+      description: Please check you have done the followings before submitting a new issue.
+      options:
+        - label: I have already read README.
+          required: true
+        - label: I have already searched existing issues and they are not help to me.
+          required: true
+        - label: I examined error or warning messages and it's difficult to solve.
+          required: true
+        - label: I am using the latest version of this repository.
+          required: true
+        - label: I am using the [latest](https://github.com/hexojs/hexo/releases) version of Hexo.
+          required: true
+        - label: My Node.js is matched the required version.
+          required: true
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: A clear and concise description of what the bug is.
+      # value:
+      # render:
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: A clear and concise description of what you expected to happen.
+      # value:
+      # render:
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: How to reproduce
+      description: How do you trigger this bug? Please walk us through it step by step.
+      placeholder: |
+        1. Step1
+        2. Step2
+        3. etc.
+        ...
+      # value:
+      # render:
+
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: If applicable, add screenshots to help explain your problem.
+      # value:
+      # render:
+
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Environment information
+      description: your OS type, OS version, Node version, Hexo version and so on.
+      # placeholder:
+      # value: |
+      render: text
+
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Additional context
+      description: If you have any other context or information about the bug, write here.
+      # placeholder:
+      # value:
+      # render:

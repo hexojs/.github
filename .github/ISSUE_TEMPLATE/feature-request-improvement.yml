@@ -1,0 +1,38 @@
+name: Feature request / Improvement
+description: I have a feature request, improvement etc...
+# title: ""
+# labels: []
+# assignees: []
+
+body:
+  - type: checkboxes
+    attributes:
+      label: Check List
+      description: Please check you have done the followings before submitting a new feature request.
+      options:
+        - label: I have already read README.
+          required: true
+        - label: I have already searched existing issues.
+          required: true
+        - label: I have already searched existing pull requrests.
+          required: true
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Feature Request
+      description: Descripe the feature and why it is needed.
+      # placeholder:
+      # value:
+      # render:
+
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Additional context
+      description: If you have any other information, write here.
+      # placeholder:
+      # value:
+      # render:

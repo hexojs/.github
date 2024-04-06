@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/hexojs/hexo/discussions
+    about: If you have some doubts or encounter some difficulties, please go to the discussion forum for help
+  - name: Hexo website
+    url: https://hexo.io/
+    about: The documentation on the website may help you
